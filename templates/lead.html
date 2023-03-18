@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #one
+        {
+            background-color: yellow;
+            color: blue;
+        }
+        #two
+        {
+            background: rgb(red, green, blue);
+            color: rgb(250, 79, 11);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1 id="one">welcome</h1>
+        <h1 id="two">CSK VS RCB</h1>
+        <h2>CSK CAPTAIN DHONI</h2>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.5ITfbLwzdfuMhadQNfIMcAHaFj&pid=Api&P=0" alt=""><br>
+        <a href="{% url 'CSK:team1' %}">csk members</a>
+        <h2>RCB CAPTION VIRAT</h2>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.dYWvYkXgj1jP66ZZ6PzY0QHaGc&pid=Api&P=0" alt=""><br>
+        
+        <a href="{% url 'RCB:team2' %}">RCB members</a>
+    </center>
+</body>
+</html>
